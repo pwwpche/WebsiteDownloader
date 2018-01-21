@@ -1,0 +1,439 @@
+[AnyProxy Log][2018-01-21 01:13:15]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:13:15]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:13:15]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:13:15]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:13:16]: received request to: GET www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:13:17]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:13:17]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:13:17]: received request to: GET www.udemy.com/api-2.0/shopping-carts/me/
+[AnyProxy Log][2018-01-21 01:13:18]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:13:18]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:13:18]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/shopping-carts/me/
+[AnyProxy Log][2018-01-21 01:13:19]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:13:19]: received request to: GET www.udemy.com/api-2.0/notices/me?type=featured_banner&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=featured_banner&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:13:20]: received request to: POST www.udemy.com/api-2.0/visits/me/funnel-logs/
+https://www.udemy.com/api-2.0/visits/me/funnel-logs/
+[AnyProxy Log][2018-01-21 01:13:57]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:13:57]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:13:57]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@default,completion_ratio,image_50x50,image_100x100&ordering=-last_accessed&page_size=4
+https://www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@default,completion_ratio,image_50x50,image_100x100&ordering=-last_accessed&page_size=4
+[AnyProxy Log][2018-01-21 01:13:58]: received request to: GET www.udemy.com/api-2.0/channels/info?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+https://www.udemy.com/api-2.0/channels/info?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+[AnyProxy Log][2018-01-21 01:13:58]: received request to: GET www.udemy.com/api-2.0/channels/info/?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+https://www.udemy.com/api-2.0/channels/info/?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+[AnyProxy Log][2018-01-21 01:13:58]: received request to: GET www.udemy.com/api-2.0/channels/1646/hierarchy-channels
+[AnyProxy Log][2018-01-21 01:13:58]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:13:58]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:13:58]: received request to: GET www.udemy.com/api-2.0/channels/1646/?page_size=12
+https://www.udemy.com/api-2.0/channels/1646/hierarchy-channels
+https://www.udemy.com/api-2.0/channels/1646/?page_size=12
+[AnyProxy Log][2018-01-21 01:28:34]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:28:34]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:28:34]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:28:34]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:28:35]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/homepage-app.2d99c977ba684a98f047.js
+[AnyProxy Log][2018-01-21 01:28:35]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:28:35]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:28:35]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/home/desktop/hb.451620cea2adccbeaa758d609eca72c5.css
+https://www.udemy.com/staticx/udemy/js/webpack/home/desktop/hb.451620cea2adccbeaa758d609eca72c5.css
+[AnyProxy Log][2018-01-21 01:28:35]: received request to: GET www.udemy.com/api-2.0/channels/2760/?format=json&page_size=12&locale=en_US&currency=usd
+https://www.udemy.com/staticx/udemy/js/webpack/homepage-app.2d99c977ba684a98f047.js
+[AnyProxy Log][2018-01-21 01:28:35]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:28:35]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:28:35]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/homepage_hero_cropped.bf280efd1c694ea0ef17ab7637014c2e.jpg
+https://www.udemy.com/staticx/udemy/js/webpack/homepage_hero_cropped.bf280efd1c694ea0ef17ab7637014c2e.jpg
+https://www.udemy.com/api-2.0/channels/2760/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:28:36]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:28:38]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/homepage-app.2d99c977ba684a98f047.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/homepage-app.2d99c977ba684a98f047.js.map
+[AnyProxy Log][2018-01-21 01:28:38]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/home/desktop/hb.451620cea2adccbeaa758d609eca72c5.css.map
+https://www.udemy.com/staticx/udemy/js/webpack/home/desktop/hb.451620cea2adccbeaa758d609eca72c5.css.map
+[AnyProxy Log][2018-01-21 01:28:38]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:29:47]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:29:47]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:29:47]: received request to: GET www.udemy.com/courses/development/
+https://www.udemy.com/courses/development/
+[AnyProxy Log][2018-01-21 01:29:48]: received request to: GET www.udemy.com/api-2.0/channels/1640/?format=json&page_size=12
+[AnyProxy Log][2018-01-21 01:29:48]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:29:48]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:29:48]: received request to: GET www.udemy.com/api-2.0/channels/1640/hierarchy-channels?format=json
+https://www.udemy.com/api-2.0/channels/1640/hierarchy-channels?format=json
+[AnyProxy Log][2018-01-21 01:29:49]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/channels/1640/?format=json&page_size=12
+[AnyProxy Log][2018-01-21 01:29:53]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:30:19]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:30:19]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:30:19]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:31:53]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:31:53]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:31:58]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:32:05]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:32:05]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:32:05]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:32:14]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:32:14]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:32:14]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:34:19]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:34:19]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:34:19]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:34:19]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:34:27]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:34:27]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:34:27]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:34:38]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:34:38]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:34:38]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:35:09]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:35:09]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:35:09]: received request to: GET www.udemy.com/courses/development/
+https://www.udemy.com/courses/development/
+[AnyProxy Log][2018-01-21 01:35:10]: received request to: GET www.udemy.com/api-2.0/channels/1640/?format=json&page_size=12
+[AnyProxy Log][2018-01-21 01:35:10]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:35:10]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:35:10]: received request to: GET www.udemy.com/api-2.0/channels/1640/hierarchy-channels?format=json
+https://www.udemy.com/api-2.0/channels/1640/hierarchy-channels?format=json
+[AnyProxy Log][2018-01-21 01:35:11]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/channels/1640/?format=json&page_size=12
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:13]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:35:14]: received request to: GET www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:15]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:17]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:35:27]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:35:27]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:35:27]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:35:27]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:35:30]: received request to: GET www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:30]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:35:30]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:35:30]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:30]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:35:30]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:35:30]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/sw.js
+https://www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:35:59]: destorying https connection : 127.0.0.1:57934
+[AnyProxy Log][2018-01-21 01:35:59]: endding https cltSocket : 127.0.0.1:57934
+[AnyProxy Log][2018-01-21 01:35:59]: clearing cache file...
+[AnyProxy Log][2018-01-21 01:35:59]: closing webserver...
+[AnyProxy Log][2018-01-21 01:36:51]: Http proxy started on port 8001
+[AnyProxy Log][2018-01-21 01:36:51]: web interface started on port 8002
+[AnyProxy Log][2018-01-21 01:36:56]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:36:56]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:36:56]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:36:56]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:37:08]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:08]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:08]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:37:24]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:24]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:24]: [internal https]proxy server for www.udemy.com established
+[AnyProxy Log][2018-01-21 01:37:24]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:37:26]: received request to: GET www.udemy.com/api-2.0/channels/2760/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:37:26]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:26]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:26]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:37:27]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/api-2.0/channels/2760/?format=json&page_size=12&locale=en_US&currency=usd
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:37:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:51]: received request to: GET www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+https://www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+[AnyProxy Log][2018-01-21 01:37:52]: received request to: GET www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/styles/shim.css
+[AnyProxy Log][2018-01-21 01:37:52]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:52]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:52]: received request to: GET www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/form-core.js
+[AnyProxy Log][2018-01-21 01:37:52]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:37:52]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:37:52]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/g-logo.4c9c3df69e998b08e1d14c4bbbeb3949.svg
+https://www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/styles/shim.css
+https://www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/form-core.js
+https://www.udemy.com/staticx/udemy/js/webpack/g-logo.4c9c3df69e998b08e1d14c4bbbeb3949.svg
+[AnyProxy Log][2018-01-21 01:37:52]: received request to: GET www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/form-validation.js
+https://www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/form-validation.js
+[AnyProxy Log][2018-01-21 01:37:52]: received request to: GET www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/plugins/jquery.ui.position.js
+https://www.udemy.com/staticx/udemy/js/node_modules/webshim/js-webshim/minified/shims/plugins/jquery.ui.position.js
+[AnyProxy Log][2018-01-21 01:38:00]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:00]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:00]: received request to: POST www.udemy.com/api-2.0/visits/me/tracking-logs/
+[AnyProxy Log][2018-01-21 01:38:00]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:00]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:00]: received request to: POST www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+https://www.udemy.com/api-2.0/visits/me/tracking-logs/
+https://www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+[AnyProxy Log][2018-01-21 01:38:04]: received request to: POST www.udemy.com/api-2.0/visits/me/tracking-logs/
+[AnyProxy Log][2018-01-21 01:38:04]: received request to: POST www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+https://www.udemy.com/api-2.0/visits/me/tracking-logs/
+https://www.udemy.com/join/login-popup/?ref=&display_type=popup&locale=en_US&response_type=json&next=https%3A%2F%2Fwww.udemy.com%2F&xref=
+[AnyProxy Log][2018-01-21 01:38:04]: received request to: GET www.udemy.com/
+https://www.udemy.com/
+[object Uint8Array]
+HELLO: https://www.udemy.com/
+[AnyProxy Log][2018-01-21 01:38:05]: received request to: GET www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:38:06]: received request to: GET www.udemy.com/api-2.0/shopping-carts/me/
+[AnyProxy Log][2018-01-21 01:38:06]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:06]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:06]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/ui-feedback-app.7bf6f0e10b0e86420925.js
+https://www.udemy.com/staticx/udemy/js/webpack/ui-feedback-app.7bf6f0e10b0e86420925.js
+[AnyProxy Log][2018-01-21 01:38:06]: received request to: GET www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/channels/2320/?format=json&page_size=12&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/shopping-carts/me/
+https://www.udemy.com/api-2.0/notices/me?type=smart_bar&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:38:07]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/ui-feedback-app.7bf6f0e10b0e86420925.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/ui-feedback-app.7bf6f0e10b0e86420925.js.map
+[AnyProxy Log][2018-01-21 01:38:08]: received request to: GET www.udemy.com/api-2.0/notices/me?type=featured_banner&limit=1&locale=en_US&currency=usd
+https://www.udemy.com/api-2.0/notices/me?type=featured_banner&limit=1&locale=en_US&currency=usd
+[AnyProxy Log][2018-01-21 01:38:09]: received request to: POST www.udemy.com/api-2.0/visits/me/funnel-logs/
+[AnyProxy Log][2018-01-21 01:38:09]: received request to: POST www.udemy.com/api-2.0/visits/me/funnel-logs/
+https://www.udemy.com/api-2.0/visits/me/funnel-logs/
+https://www.udemy.com/api-2.0/visits/me/funnel-logs/
+[AnyProxy Log][2018-01-21 01:38:10]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:38:20]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:20]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:20]: received request to: GET www.udemy.com/api-2.0/channels/info?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+https://www.udemy.com/api-2.0/channels/info?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+[AnyProxy Log][2018-01-21 01:38:20]: received request to: GET www.udemy.com/api-2.0/channels/info/?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+https://www.udemy.com/api-2.0/channels/info/?fields%5Bcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bcollection_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Cdescription%2Cbanner_image_url%2Cbanner_background_color&fields%5Bkeyword_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&fields%5Bsubcategory_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Ccategory_of_parent_channel&fields%5Bfeatured_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type%2Chello_bar&fields%5Bcourse_category%5D=title%2Curl&fields%5Bhomepage_channel%5D=title%2Chas_featured%2Cchannel_type%2Cranking_method%2Cis_sync_channel%2Cis_full_width%2Cskin%2Cmeta_data%2Ccollection_channel_type&category_title=it-and-software&channel_type=category
+[AnyProxy Log][2018-01-21 01:38:20]: received request to: GET www.udemy.com/api-2.0/channels/1646/hierarchy-channels
+[AnyProxy Log][2018-01-21 01:38:20]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:20]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:20]: received request to: GET www.udemy.com/api-2.0/channels/1646/?page_size=12
+https://www.udemy.com/api-2.0/channels/1646/hierarchy-channels
+https://www.udemy.com/api-2.0/channels/1646/?page_size=12
+[AnyProxy Log][2018-01-21 01:38:23]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@default,completion_ratio,image_50x50,image_100x100&ordering=-last_accessed&page_size=4
+https://www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@default,completion_ratio,image_50x50,image_100x100&ordering=-last_accessed&page_size=4
+[AnyProxy Log][2018-01-21 01:38:23]: received request to: GET www.udemy.com/home/my-courses/learning/
+https://www.udemy.com/home/my-courses/learning/
+[AnyProxy Log][2018-01-21 01:38:24]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/my-courses-app.9e8af675fd05cfcdbfd4.js
+[AnyProxy Log][2018-01-21 01:38:24]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/my-courses.6a027f65559832ccb507a8d1b67503c2.css
+https://www.udemy.com/staticx/udemy/js/webpack/my-courses.6a027f65559832ccb507a8d1b67503c2.css
+https://www.udemy.com/staticx/udemy/js/webpack/my-courses-app.9e8af675fd05cfcdbfd4.js
+[AnyProxy Log][2018-01-21 01:38:25]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/my-courses.6a027f65559832ccb507a8d1b67503c2.css.map
+https://www.udemy.com/staticx/udemy/js/webpack/my-courses.6a027f65559832ccb507a8d1b67503c2.css.map
+[AnyProxy Log][2018-01-21 01:38:25]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/intercom-app.a3d0cd10ba294842354b.js
+https://www.udemy.com/staticx/udemy/js/webpack/intercom-app.a3d0cd10ba294842354b.js
+[AnyProxy Log][2018-01-21 01:38:27]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/intercom-app.a3d0cd10ba294842354b.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/intercom-app.a3d0cd10ba294842354b.js.map
+[AnyProxy Log][2018-01-21 01:38:27]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@min,visible_instructors,image_240x135,image_480x270,favorite_time,archive_time,completion_ratio,last_accessed_time,enrollment_time,is_practice_test_course,features,num_collections,published_title&fields%5Buser%5D=@min,job_title&ordering=-access_time,-enrolled&page=1&page_size=12
+[AnyProxy Log][2018-01-21 01:38:27]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses-collections/?fields%5Bcourse%5D=id&fields%5Buser_has_subscribed_courses_collection%5D=@all&page=1&page_size=8
+[AnyProxy Log][2018-01-21 01:38:27]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:27]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:27]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/my-courses-app.9e8af675fd05cfcdbfd4.js.map
+https://www.udemy.com/api-2.0/users/me/subscribed-courses-collections/?fields%5Bcourse%5D=id&fields%5Buser_has_subscribed_courses_collection%5D=@all&page=1&page_size=8
+https://www.udemy.com/api-2.0/users/me/subscribed-courses?fields%5Bcourse%5D=@min,visible_instructors,image_240x135,image_480x270,favorite_time,archive_time,completion_ratio,last_accessed_time,enrollment_time,is_practice_test_course,features,num_collections,published_title&fields%5Buser%5D=@min,job_title&ordering=-access_time,-enrolled&page=1&page_size=12
+[AnyProxy Log][2018-01-21 01:38:27]: received request to: GET www.udemy.com/api-2.0/users/me/course-reviews/?courses=995016&fields%5Bcourse%5D=id&fields%5Bcourse_review%5D=@min,course,survey_answers&page=1&page_size=1
+https://www.udemy.com/api-2.0/users/me/course-reviews/?courses=995016&fields%5Bcourse%5D=id&fields%5Bcourse_review%5D=@min,course,survey_answers&page=1&page_size=1
+https://www.udemy.com/staticx/udemy/js/webpack/my-courses-app.9e8af675fd05cfcdbfd4.js.map
+[AnyProxy Log][2018-01-21 01:38:31]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:38:48]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:48]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:48]: received request to: GET www.udemy.com/course-dashboard-redirect/?course_id=995016
+https://www.udemy.com/course-dashboard-redirect/?course_id=995016
+[AnyProxy Log][2018-01-21 01:38:48]: received request to: GET www.udemy.com/vuejs-2-the-complete-guide/learn/v4/t/lecture/5940924?start=0
+https://www.udemy.com/vuejs-2-the-complete-guide/learn/v4/t/lecture/5940924?start=0
+[AnyProxy Log][2018-01-21 01:38:49]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/course-taking.c583dd0f077c09dc4d6c6793866c8af9.css.map
+https://www.udemy.com/staticx/udemy/js/webpack/course-taking.c583dd0f077c09dc4d6c6793866c8af9.css.map
+[AnyProxy Log][2018-01-21 01:38:50]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/course-taking-v4-app.832ea072d8bcbc3342c7.js.map
+[AnyProxy Log][2018-01-21 01:38:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/courses/995016/cached-subscriber-curriculum-items?fields%5Basset%5D=@min,title,filename,asset_type,external_url,length,status&fields%5Bchapter%5D=@min,description,object_index,title,sort_order&fields%5Blecture%5D=@min,object_index,asset,supplementary_assets,sort_order,is_published,is_free&fields%5Bpractice%5D=@min,object_index,title,sort_order,is_published&fields%5Bquiz%5D=@min,object_index,title,sort_order,is_published&page_size=9999
+[AnyProxy Log][2018-01-21 01:38:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses/995016/progress?fields%5Bcourse%5D=started_lecture_ids,completed_lecture_ids,started_quiz_ids,completed_quiz_ids,num_completed_items,last_watched_seconds,last_seen_page,started_assignment_ids,completed_assignment_ids
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924?fields%5Basset%5D=@min,download_urls,external_url,slide_urls,status&fields%5Bcourse%5D=id,is_paid,url,has_autogenerated_captions&fields%5Blecture%5D=@default,view_html,course,can_give_cc_feedback,can_see_cc_feedback_popup&page_config=ct_v4&tracking_tag=ctp_lecture
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/courses/995016/reviews?fields%5Bcourse_review%5D=@min,location,survey_answers,user&user=42734170
+[AnyProxy Log][2018-01-21 01:38:51]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:38:51]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/surveys/student-contextual-survey-v2?fields[survey]=@default,headline,description
+https://www.udemy.com/staticx/udemy/js/webpack/course-taking-v4-app.832ea072d8bcbc3342c7.js.map
+https://www.udemy.com/api-2.0/courses/995016/reviews?fields%5Bcourse_review%5D=@min,location,survey_answers,user&user=42734170
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/progress?fields%5Bcourse%5D=started_lecture_ids,completed_lecture_ids,started_quiz_ids,completed_quiz_ids,num_completed_items,last_watched_seconds,last_seen_page,started_assignment_ids,completed_assignment_ids
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924?fields%5Basset%5D=@min,download_urls,external_url,slide_urls,status&fields%5Bcourse%5D=id,is_paid,url,has_autogenerated_captions&fields%5Blecture%5D=@default,view_html,course,can_give_cc_feedback,can_see_cc_feedback_popup&page_config=ct_v4&tracking_tag=ctp_lecture
+https://www.udemy.com/api-2.0/surveys/student-contextual-survey-v2?fields[survey]=@default,headline,description
+https://www.udemy.com/api-2.0/courses/995016/cached-subscriber-curriculum-items?fields%5Basset%5D=@min,title,filename,asset_type,external_url,length,status&fields%5Bchapter%5D=@min,description,object_index,title,sort_order&fields%5Blecture%5D=@min,object_index,asset,supplementary_assets,sort_order,is_published,is_free&fields%5Bpractice%5D=@min,object_index,title,sort_order,is_published&fields%5Bquiz%5D=@min,object_index,title,sort_order,is_published&page_size=9999
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/videojs-open-source-package.9cfda45167670cda4d3a.js
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/courses/995016/discussions?fields%5Bcourse%5D=id,published_title&fields%5Bcourse_discussion%5D=@default,user,course,related_object,is_following,is_instructor,num_replies,created,num_follows&fields%5Blecture%5D=@min,title,object_index&fields%5Bpractice%5D=@min,title,object_index&fields%5Bquiz%5D=@min,title,object_index&fields%5Buser%5D=@min,image_50x50,initials,url&lecture_id=5940924&ordering=-is_me,-created&page=1&page_size=15&related_object_id=5940924&related_object_type=lecture
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/ud-wysiwyg.0dc7f137e3cefc18b450.js
+https://www.udemy.com/staticx/udemy/js/webpack/videojs-open-source-package.9cfda45167670cda4d3a.js
+https://www.udemy.com/staticx/udemy/js/webpack/ud-wysiwyg.0dc7f137e3cefc18b450.js
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/surveys/captions_feedback_v2?fields[survey]=@default,headline,description
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/staticx/udemy/images/course-taking/raise_your_hand.png
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: GET www.udemy.com/api-2.0/users/me/courses/995016/surveys/42/answers
+https://www.udemy.com/staticx/udemy/images/course-taking/raise_your_hand.png
+https://www.udemy.com/api-2.0/courses/995016/discussions?fields%5Bcourse%5D=id,published_title&fields%5Bcourse_discussion%5D=@default,user,course,related_object,is_following,is_instructor,num_replies,created,num_follows&fields%5Blecture%5D=@min,title,object_index&fields%5Bpractice%5D=@min,title,object_index&fields%5Bquiz%5D=@min,title,object_index&fields%5Buser%5D=@min,image_50x50,initials,url&lecture_id=5940924&ordering=-is_me,-created&page=1&page_size=15&related_object_id=5940924&related_object_type=lecture
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: POST www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+[AnyProxy Log][2018-01-21 01:38:51]: received request to: POST www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+https://www.udemy.com/api-2.0/surveys/captions_feedback_v2?fields[survey]=@default,headline,description
+https://www.udemy.com/api-2.0/users/me/courses/995016/surveys/42/answers
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+[AnyProxy Log][2018-01-21 01:38:54]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/ud-wysiwyg.0dc7f137e3cefc18b450.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/ud-wysiwyg.0dc7f137e3cefc18b450.js.map
+[AnyProxy Log][2018-01-21 01:38:54]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/videojs-contrib-hls.61e80d8624e07d888a11.js
+https://www.udemy.com/staticx/udemy/js/webpack/videojs-contrib-hls.61e80d8624e07d888a11.js
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/videojs-open-source-package.9cfda45167670cda4d3a.js.map
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/videojs-contrib-hls.61e80d8624e07d888a11.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/videojs-open-source-package.9cfda45167670cda4d3a.js.map
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: POST www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: POST www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+https://www.udemy.com/staticx/udemy/js/webpack/videojs-contrib-hls.61e80d8624e07d888a11.js.map
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/staticx/udemy/js/node_modules/videojs-vtt.js/dist/vtt.min.js?v=e4f0b1c20e759bf7bab9b1fcccafadf050a5055a
+https://www.udemy.com/staticx/udemy/js/node_modules/videojs-vtt.js/dist/vtt.min.js?v=e4f0b1c20e759bf7bab9b1fcccafadf050a5055a
+https://www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+https://www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/notes?fields%5Bnote%5D=@default,created&page_size=100
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/social-bookmarks?fields%5Bsocial_bookmark%5D=@default,lecture&page_size=100
+[AnyProxy Log][2018-01-21 01:38:55]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/notes?fields%5Bnote%5D=@default,created&page_size=100
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/social-bookmarks?fields%5Bsocial_bookmark%5D=@default,lecture&page_size=100
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:39:56]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:39:56]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:39:56]: received request to: POST www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/progress-logs
+[AnyProxy Log][2018-01-21 01:39:56]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:39:56]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:39:56]: received request to: POST www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/progress-logs
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/progress-logs
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/progress-logs
+[AnyProxy Log][2018-01-21 01:40:00]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:40:01]: received request to: GET www.udemy.com/api-2.0/users/me/subscribed-courses-collections/?collection_has_courses=True&course_limit=9&fields%5Bcourse%5D=@min,visible_instructors,image_240x135,image_480x270,favorite_time,archive_time,is_practice_test_course,completion_ratio,last_accessed_time,enrollment_time,features,published_title&fields%5Buser_has_subscribed_courses_collection%5D=@all&page=1&page_size=8
+https://www.udemy.com/api-2.0/users/me/subscribed-courses-collections/?collection_has_courses=True&course_limit=9&fields%5Bcourse%5D=@min,visible_instructors,image_240x135,image_480x270,favorite_time,archive_time,is_practice_test_course,completion_ratio,last_accessed_time,enrollment_time,features,published_title&fields%5Buser_has_subscribed_courses_collection%5D=@all&page=1&page_size=8
+[AnyProxy Log][2018-01-21 01:40:01]: received request to: GET www.udemy.com/asset/view/?data=SlFeMgsQKiVVURF1XFVGeABEG21MCxFuC0USdFlRTXRM
+https://www.udemy.com/asset/view/?data=SlFeMgsQKiVVURF1XFVGeABEG21MCxFuC0USdFlRTXRM
+[AnyProxy Log][2018-01-21 01:40:02]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/asset-player.3a33d7742daff3e89906191fcebeb3c8.css
+https://www.udemy.com/staticx/udemy/js/webpack/asset-player.3a33d7742daff3e89906191fcebeb3c8.css
+[AnyProxy Log][2018-01-21 01:40:02]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/asset-player.3a33d7742daff3e89906191fcebeb3c8.css.map
+https://www.udemy.com/staticx/udemy/js/webpack/asset-player.3a33d7742daff3e89906191fcebeb3c8.css.map
+[AnyProxy Log][2018-01-21 01:40:04]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:40:04]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/asset-player-app.5a9b4a90b6dcb68194f3.js
+https://www.udemy.com/staticx/udemy/js/webpack/asset-player-app.5a9b4a90b6dcb68194f3.js
+[AnyProxy Log][2018-01-21 01:40:05]: received request to: GET www.udemy.com/staticx/udemy/js/webpack/asset-player-app.5a9b4a90b6dcb68194f3.js.map
+https://www.udemy.com/staticx/udemy/js/webpack/asset-player-app.5a9b4a90b6dcb68194f3.js.map
+[AnyProxy Log][2018-01-21 01:40:08]: received request to: POST www.udemy.com/api-2.0/visits/me/funnel-logs/
+[AnyProxy Log][2018-01-21 01:40:08]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:40:08]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:40:08]: received request to: POST www.udemy.com/api-2.0/visits/me/funnel-logs/
+https://www.udemy.com/api-2.0/visits/me/funnel-logs/
+https://www.udemy.com/api-2.0/visits/me/funnel-logs/
+[AnyProxy Log][2018-01-21 01:40:09]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:40:15]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:40:15]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:40:15]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:40:27]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:40:27]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:40:27]: received request to: GET www.udemy.com/sw.js
+https://www.udemy.com/sw.js
+[AnyProxy Log][2018-01-21 01:40:46]: received https CONNECT request www.udemy.com
+REQUEST_https: true
+[AnyProxy Log][2018-01-21 01:40:46]: will forward to local https server
+[AnyProxy Log][2018-01-21 01:40:46]: received request to: POST www.udemy.com/api-2.0/users/me/settings
+https://www.udemy.com/api-2.0/users/me/settings
+[AnyProxy Log][2018-01-21 01:40:47]: received request to: GET www.udemy.com/course-dashboard-redirect/?course_id=995016
+https://www.udemy.com/course-dashboard-redirect/?course_id=995016
+[AnyProxy Log][2018-01-21 01:40:47]: received request to: GET www.udemy.com/vuejs-2-the-complete-guide/learn/v4/t/lecture/5940924?start=60
+https://www.udemy.com/vuejs-2-the-complete-guide/learn/v4/t/lecture/5940924?start=60
+[AnyProxy Log][2018-01-21 01:40:51]: received request to: GET www.udemy.com/api-2.0/users/me/courses/995016/surveys/42/answers
+https://www.udemy.com/api-2.0/users/me/courses/995016/surveys/42/answers
+[AnyProxy Log][2018-01-21 01:40:51]: received request to: POST www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+https://www.udemy.com/api-2.0/users/me/subscribed-courses/995016/lectures/5940924/view-logs
+[AnyProxy Log][2018-01-21 01:40:54]: received request to: POST www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+https://www.udemy.com/api-2.0/visits/me/datadog-increment-logs
+[AnyProxy Log][2018-01-21 11:16:38]: destorying https connection : 127.0.0.1:63814
+[AnyProxy Log][2018-01-21 11:16:38]: endding https cltSocket : 127.0.0.1:63814
+[AnyProxy Log][2018-01-21 11:16:38]: clearing cache file...
+[AnyProxy Log][2018-01-21 11:16:38]: closing webserver...
